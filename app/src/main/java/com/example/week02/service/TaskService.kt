@@ -10,7 +10,9 @@ class TaskService {
         items.add(TodoItem(nextId++, type, title, priority = priority))
     }
 
-    fun getItems(): List<TodoItem> = items
+    fun getItems(): List<TodoItem> {
+        return items.sortedBy { it.priority }
+    }
 
     fun searchItems(keyword: String): List<TodoItem> {
         return items.filter { it.title.contains(keyword, ignoreCase = true) }
