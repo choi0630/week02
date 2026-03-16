@@ -14,10 +14,10 @@
 
 3. 메뉴별 실행 결과
  1) 항목 추가 및 목록 조회
-- 
+- ![image](https://github.com/choi0630/week02/issues/1#issue-4080058384)
 
  2) 검색 기능 및 ID 예외 처리
--
+-![image](https://github.com/choi0630/week02/issues/2#issue-4080061421)
 
  3) 입력 방어 (숫자 외 입력)
--
+-![image](https://github.com/choi0630/week02/issues/3#issue-4080061954)
